@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>MyFlock</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="icon" href="images/Designer.png" type="image/x-icon">
+ 
+</head>
+<body>
+  <section class="bar">
+    <a href="index.html" class="button2">Home</a>
+    <a href="signup.html" class="button2">Signup</a>
+    <a onclick="redirect_about()" class="button2"
+    <a href="signin.html" class="button2">Sign in</a>
+  </section>
+  <div  class="title_text1">My Flock. Your Flock</div>
+  <div id="OurFlock" class="title_text1">Birds of a feather flock together</div>
+  <img src="{{ url_for('static', filename='images/Orpington.jpg') }}" alt="Chicken">
+
+  <p>To sign up</p>
+  <a href="signup.html" class="button">Visit Link</a>
+  <p>All chickens should be happy. Let us help your chickens live a long, happy life.</p>
+  <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>

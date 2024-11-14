@@ -1,0 +1,62 @@
+﻿html {
+    font-family: Arial;
+  }
+  .bar {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  
+  .button {
+    display: inline-box;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial;
+  }
+  
+  .button:hover { 
+    background-color: #737373;
+  }
+  .title_text1 { 
+ font-size: 3em;
+ text-align: center;
+  }
+  .button2{
+    display: inline-box;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial;
+}
+.button2:hover { 
+  background-color: #262626;
+}
+.align {
+  text-align: center;
+}
+
+  @font-face { 
+    font-family: 'ChopinScript'; 
+    src: url('fonts/ChopinScript.ttf') format('truetype'); 
+  }
+  @font-face { 
+    font-family: 'Allura-Regular'; 
+    src: url('fonts/Allura-Regular.ttf') format('truetype'); 
+  }
+  
+  #OurFlock {
+    font-family: 'Allura-Regular';
+    text-align: center;
+  }
+  
+  
