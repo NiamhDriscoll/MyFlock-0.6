@@ -23,8 +23,8 @@ def init_db():
 (username TEXT, email TEXT, password TEXT)''')
 
 def insert(username, email, password):
-    try:
-    conn = sqlite3.connect("C:\\Users\\Niamh\\OneDrive\\Desktop\\MyFlock 0.6\\myflock.db")
+    try: 
+     conn = sqlite3.connect("C:\\Users\\Niamh\\OneDrive\\Desktop\\MyFlock 0.6\\myflock.db")
     cur = conn.cursor
     cur.execute("INSERT INTO people (username, email, password) VALUES (?, ?, ?)", (username, email, password))
     conn.commit()
@@ -32,7 +32,7 @@ def insert(username, email, password):
     if cur:
         cur.close()
     if conn:
-        conn.close
+        conn.close 
 
 if __name__ == '__main__':
     init_db()
