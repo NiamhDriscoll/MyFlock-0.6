@@ -10,6 +10,7 @@ def about():
 @app.route("/signup", methods=["POST"])
 def signup():
     return render_template("signup.html")
+
     username = request.form.get("username")
     email = request.form.get("email")
     password = request.form.get("password")

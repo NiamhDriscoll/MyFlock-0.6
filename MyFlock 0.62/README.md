@@ -1,4 +1,4 @@
-MyFlock version 0.6 
+MyFlock version 0.62
 Updated November 9, 2024
 This is a prerelease version of MyFlock.
 About MyFlock: MyFlock is a free website for helping chicken owners manage their chickens.
