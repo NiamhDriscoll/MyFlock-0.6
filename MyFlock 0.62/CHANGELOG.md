@@ -12,3 +12,4 @@ MyFlock 0.62
 
 Friday, November 15, 2024
 Updated app.py
+Bug fixes
