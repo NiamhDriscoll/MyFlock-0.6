@@ -17,7 +17,6 @@ def signup():
 
 def init_db():
     conn = sqlite3.connect("C:\\Users\\Niamh\\OneDrive\\Desktop\\MyFlock 0.6\\myflock.db")
-    print("Inserted user")
     cur = conn.cursor()
     cur.execute (''' CREATE TABLE IF NOT EXISTS people
 (username TEXT, email TEXT, password TEXT)''')
