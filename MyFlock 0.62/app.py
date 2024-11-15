@@ -10,10 +10,9 @@ def about():
 @app.route("/signup", methods=["POST"])
 def signup():
     return render_template("signup.html")
-    username = request.form["username"]
-    email = request.form["email"]
-    password = request.form["password"]
-
+    username = request.form.get("username")
+    email = request.form.get("email")
+    password = request.form.get("password")
 
 def init_db():
     conn = sqlite3.connect("C:\\Users\\Niamh\\OneDrive\\Desktop\\MyFlock 0.6\\myflock.db")
