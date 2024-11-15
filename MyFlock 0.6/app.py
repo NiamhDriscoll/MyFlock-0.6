@@ -28,13 +28,11 @@ def insert(username, email, password):
     cur = conn.cursor
     cur.execute("INSERT INTO people (username, email, password) VALUES (?, ?, ?)", (username, email, password))
     conn.commit()
-    except sqlite3.Error as e: 
-    print(f"An error occurred: {e}")
     finally:
-        if cur:
-            cur.close()
-        if conn:
-            conn.close
+    if cur:
+        cur.close()
+    if conn:
+        conn.close
 
 if __name__ == '__main__':
     init_db()
