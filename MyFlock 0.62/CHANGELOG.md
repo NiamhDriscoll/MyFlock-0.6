@@ -13,3 +13,7 @@ MyFlock 0.62
 Friday, November 15, 2024
 Updated app.py
 Bug fixes
+Saturday, November 16, 2024
+Added LICENSE
+Sunday, November 17, 2024
+Added search

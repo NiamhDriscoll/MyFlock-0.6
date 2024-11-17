@@ -14,7 +14,9 @@ def signup():
     username = request.form.get("username")
     email = request.form.get("email")
     password = request.form.get("password")
-
+@app.route("/search")
+def search():
+    return render_template("search.html")
 def init_db():
     conn = sqlite3.connect("C:\\Users\\Niamh\\OneDrive\\Desktop\\MyFlock 0.6\\myflock.db")
     cur = conn.cursor()
